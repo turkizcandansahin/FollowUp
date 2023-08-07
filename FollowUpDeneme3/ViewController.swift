@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         ButtonCollection.forEach { UIButton in
             UIButton.layer.cornerRadius = 10
             UIButton.layer.borderWidth = 1
